@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\AngularProjects\\DatingApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3CAAF2F6-5038-4A9C-9484-1F4314E85C6D}|API\\API.csproj|c:\\angularprojects\\datingapp\\api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAAF2F6-5038-4A9C-9484-1F4314E85C6D}|API\\API.csproj|solutionrelative:api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAAF2F6-5038-4A9C-9484-1F4314E85C6D}|API\\API.csproj|c:\\angularprojects\\datingapp\\api\\errors\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAAF2F6-5038-4A9C-9484-1F4314E85C6D}|API\\API.csproj|solutionrelative:api\\errors\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3CAAF2F6-5038-4A9C-9484-1F4314E85C6D}|API\\API.csproj|c:\\angularprojects\\datingapp\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CAAF2F6-5038-4A9C-9484-1F4314E85C6D}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,19 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\AngularProjects\\DatingApp\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\AngularProjects\\DatingApp\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAewB0AAAAHAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ApiException.cs",
+              "DocumentMoniker": "C:\\AngularProjects\\DatingApp\\API\\Errors\\ApiException.cs",
+              "RelativeDocumentMoniker": "API\\Errors\\ApiException.cs",
+              "ToolTip": "C:\\AngularProjects\\DatingApp\\API\\Errors\\ApiException.cs",
+              "RelativeToolTip": "API\\Errors\\ApiException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T01:19:43.623Z",
+              "WhenOpened": "2025-04-28T16:59:38.716Z",
               "EditorCaption": ""
             },
             {
@@ -52,6 +60,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:2064750209:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\AngularProjects\\DatingApp\\API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "API\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\AngularProjects\\DatingApp\\API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "API\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAASwBYAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:57:53.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\AngularProjects\\DatingApp\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\AngularProjects\\DatingApp\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAewB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T01:19:43.623Z",
+              "EditorCaption": ""
             }
           ]
         }
