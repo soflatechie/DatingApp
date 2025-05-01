@@ -160,3 +160,5 @@ C:\AngularProjects\DatingApp\API\bin\Debug\net9.0\Microsoft.IdentityModel.Protoc
 C:\AngularProjects\DatingApp\API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\AngularProjects\DatingApp\api\bin\Debug\net9.0\Data\UserSeedData.json
 C:\AngularProjects\DatingApp\api\bin\Debug\net9.0\AutoMapper.dll
+C:\AngularProjects\DatingApp\api\bin\Debug\net9.0\CloudinaryDotNet.dll
+C:\AngularProjects\DatingApp\api\bin\Debug\net9.0\Newtonsoft.Json.dll
