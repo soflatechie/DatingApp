@@ -162,3 +162,4 @@ C:\AngularProjects\DatingApp\api\bin\Debug\net9.0\Data\UserSeedData.json
 C:\AngularProjects\DatingApp\api\bin\Debug\net9.0\AutoMapper.dll
 C:\AngularProjects\DatingApp\api\bin\Debug\net9.0\CloudinaryDotNet.dll
 C:\AngularProjects\DatingApp\api\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\AngularProjects\DatingApp\api\obj\Debug\net9.0\API.sourcelink.json
