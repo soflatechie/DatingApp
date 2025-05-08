@@ -1,16 +1,28 @@
 using System;
 using System.Text;
+using API.Data;
+using API.Entities;
+using CloudinaryDotNet.Actions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 
 namespace API.Extensions;
 
 public static class IdentityServiceExtensions
 {
-    public static IServiceCollection IdentityServices(this IServiceCollection service,
+    public static IServiceCollection IdentityServices(this IServiceCollection services,
         IConfiguration config)
     {
-        service.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+        services.AddIdentityCore<AppUser>(options => {
+            options.Password.RequireNonAlphanumeric = false;
+        })
+        .AddRoles<AppRole>()
+        .AddRoleManager<RoleManager<AppRole>>()
+        .AddEntityFrameworkStores<DataContext>();
+
+
+        services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
                 {
                     var tokenKey = config["TokenKey"] ?? throw new Exception("Token Key not found");
@@ -22,7 +34,11 @@ public static class IdentityServiceExtensions
                         ValidateAudience = false
                     };
                 });
-                
-        return service;
+
+        services.AddAuthorizationBuilder()
+            .AddPolicy("RequireAdminRole", policy => policy.RequireRole("Admin"))
+            .AddPolicy("ModeratePhotoRole", policy => policy.RequireRole("Admin", "Moderator"));
+                   
+        return services;
     }
 }

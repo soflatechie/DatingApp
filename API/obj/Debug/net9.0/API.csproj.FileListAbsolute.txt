@@ -163,3 +163,8 @@ C:\AngularProjects\DatingApp\api\bin\Debug\net9.0\AutoMapper.dll
 C:\AngularProjects\DatingApp\api\bin\Debug\net9.0\CloudinaryDotNet.dll
 C:\AngularProjects\DatingApp\api\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\AngularProjects\DatingApp\api\obj\Debug\net9.0\API.sourcelink.json
+C:\AngularProjects\DatingApp\API\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\AngularProjects\DatingApp\API\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\AngularProjects\DatingApp\API\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\AngularProjects\DatingApp\API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\AngularProjects\DatingApp\API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll

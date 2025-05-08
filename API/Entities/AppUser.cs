@@ -1,16 +1,13 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using API.Extensions;
+using Microsoft.AspNetCore.Identity;
 
 namespace API.Entities;
 
-public class AppUser
+public class AppUser : IdentityUser<int>
 {
-    public int Id { get; set; }    
-    [Required]
-    public required string UserName { get; set; } =  null!;   
-    public Byte[] PasswordHash { get; set; } = [];   
-    public Byte[] PasswordSalt { get; set; } = [];
+   
     public DateOnly DateOfBirth { get; set; }
     [Required]
     public string KnownAs { get; set; } =  string.Empty;
@@ -27,10 +24,10 @@ public class AppUser
     public string? Country { get; set; }
     public List<Photo> Photos { get; set; } = [];
 
-    
-    // public int GetAge()
-    // {
-    //     return DateOfBirth.CalculateAge();
-    // }
+    public List<UserLike> LikedByUsers { get; set; } = [];
+    public List<UserLike> LikedUsers { get; set; } = [];    
+
+    public ICollection<AppUserRole> UserRoles { get; set; } = [];
+   
 }
 

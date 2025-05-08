@@ -19,6 +19,7 @@ namespace API.Controllers
         ) : BaseApiController
     {
        
+     
         [HttpGet]
         public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers([FromQuery] UserParams userParams)
         {
@@ -30,7 +31,7 @@ namespace API.Controllers
             return Ok(users);
         }
 
-        
+      
         [HttpGet("{username}")]
         public async Task<ActionResult<MemberDto>> GetUser(string username)
         {
@@ -86,7 +87,7 @@ namespace API.Controllers
            return BadRequest("Problem adding photo");
         }
 
-        [HttpPut("set-main-photo/{photoId:int}")]
+        [HttpPut("set-main-photo/{photoId:int}")]   
         public async Task<ActionResult> SetMainPhoto(int photoId)
         {
             var user = await userRepository.GetUserByUserNameAsync(User.GetUserName());

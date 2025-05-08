@@ -5,7 +5,7 @@
 namespace API.Data.migrations
 {
     /// <inheritdoc />
-    public partial class entityuseradd : Migration
+    public partial class EntityUserId : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

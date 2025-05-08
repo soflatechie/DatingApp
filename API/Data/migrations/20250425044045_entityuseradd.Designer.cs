@@ -11,7 +11,7 @@ namespace API.Data.migrations
 {
     [DbContext(typeof(DataContext))]
     [Migration("20250425044045_entityuseradd")]
-    partial class entityuseradd
+    partial class EntityUserId
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
